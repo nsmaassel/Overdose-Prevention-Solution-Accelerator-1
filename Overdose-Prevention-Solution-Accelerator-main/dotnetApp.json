@@ -102,6 +102,7 @@
       },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', variables('webSiteName'))]",
+        "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]",
         "[resourceId('Microsoft.Web/sites/config', variables('webSiteName'), 'appsettings')]"
       ]
     },
