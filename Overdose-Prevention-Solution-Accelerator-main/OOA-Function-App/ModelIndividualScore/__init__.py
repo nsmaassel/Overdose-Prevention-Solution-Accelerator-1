@@ -46,7 +46,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         
         # Input Connection String Manually
         except:
-            connection_string = 'DefaultEndpointsProtocol=https;AccountName=ooadsq2cm4bix6n6fo;AccountKey=rftsZY28CzqDDGrlgCETc48iRVH+n32WC3C2UTHSu0BjTEDhtJ0SQwQCpWSm5alfvafYoCtN2KFh+AStADBngA=='
+            connection_string = 'DefaultEndpointsProtocol=https;AccountName=ooadsq2cm4bix6n6fo;AccountKey=jSaeCO6oE/XCHJYfvi0f6hXA1JBNSnPTz4Q969y4FOVEj6Jwe2gS1z7NyBscdKqsnvxfPk6s6Daz+AStW+mjFQ==;EndpointSuffix=core.windows.net'
             blob_service_client = BlobServiceClient.from_connection_string(connection_string)
             abs_container_client = blob_service_client.get_container_client('funcappdata')
 
