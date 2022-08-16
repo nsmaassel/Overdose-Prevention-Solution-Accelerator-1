@@ -39,7 +39,7 @@
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/jbarnes1/overdose-prevention-solution-accelerator.git",
+      "defaultValue": "https://github.com/jbarnes1/Overdose-Prevention-Solution-Accelerator.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
@@ -102,7 +102,6 @@
       },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', variables('webSiteName'))]",
-        "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]",
         "[resourceId('Microsoft.Web/sites/config', variables('webSiteName'), 'appsettings')]"
       ]
     },
