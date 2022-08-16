@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.9.1.41621",
-      "templateHash": "17266250369323790945"
+      "templateHash": "5013317725642542367"
     }
   },
   "parameters": {
@@ -110,7 +110,7 @@
       "apiVersion": "2021-03-01",
       "name": "[format('{0}/{1}', variables('webSiteName'), 'appsettings')]",
       "properties": {
-        "PROJECT": "Overdose-Accelerator-Web\\OverdoseAcceleratorWeb.csproj",
+        "PROJECT": "Overdose-Prevention-Solution-Accelerator-main\\Overdose-Accelerator-Web\\OverdoseAcceleratorWeb.csproj",
         "clientUrl": "[format('http://{0}.azurewebsites.net', parameters('appName'))]",
         "netFrameworkVersion": "v6.0"
       },

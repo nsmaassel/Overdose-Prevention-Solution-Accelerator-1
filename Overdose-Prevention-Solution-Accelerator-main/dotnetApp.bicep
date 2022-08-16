@@ -77,7 +77,7 @@ resource appServiceLogging 'Microsoft.Web/sites/config@2021-03-01' = {
   name: 'appsettings'
   properties: {
     // APPINSIGHTS_INSTRUMENTATIONKEY: appInsights.properties.InstrumentationKey
-    PROJECT: 'Overdose-Accelerator-Web\\OverdoseAcceleratorWeb.csproj'
+    PROJECT: 'Overdose-Prevention-Solution-Accelerator-main\\Overdose-Accelerator-Web\\OverdoseAcceleratorWeb.csproj'
     clientUrl: 'http://${appName}.azurewebsites.net'
     netFrameworkVersion: 'v6.0'
   }
